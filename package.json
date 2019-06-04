@@ -1,0 +1,26 @@
+{
+  "name": "mongoose-impl",
+  "version": "1.0.0",
+  "scripts": {
+    "compiler": "tsc --watch",
+    "serve": "ts-node src/mongoose.ts",
+    "dev": "ts-node-dev src/mongoose.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "mongoose": "^5.5.12"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "@types/mongoose": "^5.5.5",
+    "@types/node": "^12.0.2",
+    "@types/supertest": "^2.0.7",
+    "jest": "^24.8.0",
+    "supertest": "^4.0.2",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.1.0",
+    "ts-node-dev": "^1.0.0-pre.39",
+    "tslint": "^5.17.0",
+    "typescript": "^3.4.5"
+  }
+}
